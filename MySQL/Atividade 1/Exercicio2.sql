@@ -12,13 +12,13 @@ PRIMARY KEY (id_produtos)
 );
 
 INSERT INTO tb_prod  (nome, marca, categoria, preco) 
-VALUES ("Nootbook", "Sony", "Eletrônico", 4500.00);
- ("Impressora", "HP", "Eletrônico", 400.00);
- ("Geladeira", "Consul", "Eletrodoméstico", 2500.00);
- ("Celular", "Sansung", "Eletrônico", 1700.00);
- ("Celular", "Motorola", "Eletrônico", 800.00);
- ("Fone", "HP", "Eletrônico", 40.00);
- ("TV Smart 60", "Sansung", "Eltrônico", 4000.00);
+VALUES ("Nootbook", "Sony", "Eletrônico", 4500.00),
+ ("Impressora", "HP", "Eletrônico", 400.00),
+ ("Geladeira", "Consul", "Eletrodoméstico", 2500.00),
+ ("Celular", "Sansung", "Eletrônico", 1700.00),
+ ("Celular", "Motorola", "Eletrônico", 800.00),
+ ("Fone", "HP", "Eletrônico", 40.00),
+ ("TV Smart 60", "Sansung", "Eltrônico", 4000.00),
  ("Carregador Portátil", "Sony", "Eletrônico", 100.00);
 
 SELECT * FROM tb_prod WHERE preco > 500.00;
